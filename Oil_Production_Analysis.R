@@ -25,7 +25,8 @@ ds_t$Production <- ds_t$Production*6.8412
 ggplot(data = subset(ds_t,ds_t=='Brazil'), aes(x = Year, y = Production/1000000))+
   geom_line(color = "#00AFBB", size = 2)+
   ylab("Produção em milhões de BBOE (Barris de Óleo Equivalente)")+
-  xlab("Ano")
+  xlab("Ano")+
+  ggtitle("PRODUÇÃO DE PETRÓLEO NO BRASIL AO LONGO DOS ANOS")
 
 
 
